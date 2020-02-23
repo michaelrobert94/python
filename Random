@@ -1,0 +1,13 @@
+import random
+
+numarGenerat = random.randint(0, 100);
+numar = 0;
+
+while(numar != numarGenerat):
+    numar = int(input("Introdu numarul:"))
+    if numar < numarGenerat:
+	    print("Caut un numar mai mare")
+    elif numar > numarGenerat:
+	    print("Caut un numar mai mic")
+    else: 
+        print("Corect!")
